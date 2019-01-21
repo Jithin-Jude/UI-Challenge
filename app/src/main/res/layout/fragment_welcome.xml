@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.codingmortals.learncodeonline.fragments.WelcomeFragment"
+    android:id="@+id/constraintLayout">
+
+    <LinearLayout
+        android:id="@+id/lWelcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/please_login_or_sign_up"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/welcomeimage"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/welcome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/bSignIn"
+        android:text="@string/sign_in"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buttonbg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tvOrText" />
+    <TextView
+        android:text="@string/or_nlogin_with_social_accounts"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:id="@+id/tvOrText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutCompat" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="48dp"
+        android:id="@+id/linearLayoutCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottomtextlayout">
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:background="@drawable/bgoogle"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/bGoogle"
+            android:layout_marginRight="5dp"
+            android:layout_height="match_parent"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:background="@drawable/bfacebook"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:id="@+id/bFacebook"
+            android:layout_height="match_parent" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/bottomtextlayout"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:text="@string/have_account"/>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+        <TextView
+            android:text="@string/sign_up"
+            android:textSize="16sp"
+            android:id="@+id/bSignUp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.constraint.ConstraintLayout>

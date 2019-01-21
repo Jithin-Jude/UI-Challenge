@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LearnCodeOnline</string>
+    <string name="have_account">already have an account?  </string>
+    <string name="sign_up"> Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="don_t_account">Don\'t have an account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="learncodeonline">LearnCodeOnline.in</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="or_nlogin_with_social_accounts">or \n login with social accounts</string>
+    <string name="SETINITFRAGMENT">setInitFragment</string>
+    <string name="welcomeimage">WelcomeImage</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_login_or_sign_up">please login or sign up to continue using app</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+</resources>
