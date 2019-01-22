@@ -6,7 +6,7 @@ Splash screen, User welcome screen, SighIn and SignUp screen
 with interactive UI elements
 
 #### app demo
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/HdpnSrPYGMI/0.jpg)](https://www.youtube.com/embed/HdpnSrPYGMI)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/HdpnSrPYGMI/0.jpg)](https://youtu.be/HdpnSrPYGMI)
 
 ### Row photoshop PNG
 #### Welcome screen
