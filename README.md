@@ -9,5 +9,7 @@ with interactive UI elements
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/HdpnSrPYGMI/0.jpg)](https://youtu.be/HdpnSrPYGMI)
 
 ### Row photoshop PNG
-#### Welcome screen          Sign In screen            Sign Up screen 
-<img src="https://github.com/hardikbamania/UI-Challenge/blob/master/assets1.png" alt="drawing" width="200" style="margin:50px;"/><img src="https://github.com/hardikbamania/UI-Challenge/blob/master/assets2.png" alt="drawing" width="200"/><img src="https://github.com/hardikbamania/UI-Challenge/blob/master/assets3.png" alt="drawing" width="200"/>
+#### <pre>Welcome screen               Sign In screen                Sign Up screen</pre>
+<pre>
+<img src="https://github.com/hardikbamania/UI-Challenge/blob/master/assets1.png" alt="drawing" width="200" />     <img src="https://github.com/hardikbamania/UI-Challenge/blob/master/assets2.png" alt="drawing" width="200"/>     <img src="https://github.com/hardikbamania/UI-Challenge/blob/master/assets3.png" alt="drawing" width="200"/>
+</pre>
