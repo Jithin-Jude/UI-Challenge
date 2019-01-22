@@ -10,8 +10,8 @@ with interactive UI elements
 
 ### Row photoshop PNG
 #### Welcome screen
-![alt text](https://github.com/hardikbamania/UI-Challenge/blob/master/assets1.png=100x100)
+![alt text](https://github.com/hardikbamania/UI-Challenge/blob/master/assets1.png =100x)
 #### Sign In screen
-![alt text](https://github.com/hardikbamania/UI-Challenge/blob/master/assets2.png=100x100)
+![alt text](https://github.com/hardikbamania/UI-Challenge/blob/master/assets2.png =100x)
 #### Sign Up screen
-![alt text](https://github.com/hardikbamania/UI-Challenge/blob/master/assets3.png=100x100)
+![alt text](https://github.com/hardikbamania/UI-Challenge/blob/master/assets3.png =100x)
